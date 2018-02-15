@@ -19,7 +19,7 @@ class Challenge2
 		
 		for(int i=0; i<passedStr.length(); i++)
 		{
-			if(passedStr.charAt(i)==passedStr.charAt(j))
+			if(passedStr.toUpperCase().charAt(i)==passedStr.toUpperCase().charAt(j))
 			{
 				trap = true;
 			}
