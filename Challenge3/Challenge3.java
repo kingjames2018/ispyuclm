@@ -9,7 +9,5 @@ class Challenge3
 		int sum=0;
 		
 		sum += 1*pence[6]+1*pence[5]+2*pence[4]+1*pence[2]+1*pence[1]+3*pence[0];
-		
-		System.out.println("Sum: "+sum);
 	}
 }
